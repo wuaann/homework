@@ -9,15 +9,17 @@
     <style>
     #tinhtien{
         text-align: center;
-        background-color: #f53b57;
+        background-color: orange;
         font-weight: bold;
         font-size: 30px;
       
     }
     table{
-        background-color: #f78fb3;
+        background-color: orange;
         margin-left: auto;
         margin-right: auto;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
     }
     #tinh{
         margin-left: 130px;
@@ -52,6 +54,8 @@
 </head>
 <body>
     <?php
+    error_reporting(0);
+
     $loaiPhong = $_POST["loaiPhong"];
     $checkin = strtotime( $_POST["checkin"]);
     $checkout = strtotime($_POST["checkout"]); 
