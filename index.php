@@ -8,6 +8,18 @@
     <title>Document</title>
 </head>
 <body>
-
+<form method="post" id="bill">
+    <h1>BILL</h1>
+    <b>TypeRoom: </b>
+    <input type="text" value="<?php echo $loaiPhong ?>"> <br> <br>
+    <b>Rental hours:</b>
+    <input type="text" value="<?php echo $gioThue ?>"> <br> <br>
+    <b> Money for meals:</b>
+    <input type="text" value="<?php echo $tienAn ?>"> <br> <br>
+    <b> Money for service:</b>
+    <input type="text" value="<?php echo $dichVu ?>"> <br> <br>
+    <b>Total:</b>
+    <input type="text" value="<?php echo $tong ?>"> <br> <br>
+</form>
 </body>
 </html>
